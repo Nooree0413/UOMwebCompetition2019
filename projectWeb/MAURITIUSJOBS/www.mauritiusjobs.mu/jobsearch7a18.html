@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
 <html lang="en">
 
-<!-- Mirrored from www.mauritiusjobs.mu/jobsearch?job=error by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jan 2019 14:18:55 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Mauritius Jobs</title>
-<meta name="description" content="Mauritiusjobs is the no1 job portal in Mauritius where jobseekers can search for vacancies/jobs in Mauritius or abroad posted by registered employers.">
+<meta name="description" content="registered employers.">
 <link rel="icon" href="images/mauritius.ico" type="image/gif" sizes="16x16">
 <link media="all" rel="stylesheet" type="text/css" href="css/reset.css"/>
 <link media="all" rel="stylesheet" type="text/css" href="css/page43a6.css?1548684355"/>
@@ -14,7 +13,7 @@
 <script src="../code.jquery.com/jquery-1.9.1.js"></script>
 <script src="../code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create','UA-50481647-1','mauritiusjobs.mu');ga('send','pageview');</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create','UA-50481647-1','bs.mu');ga('send','pageview');</script>
 <script language="JavaScript" type="text/javascript">if(navigator.appName=='Microsoft Internet Explorer'){function NOclickIE(e){if(event.button==2||event.button==3){return false;}return true;}document.onmousedown=NOclickIE;document.onmouseup=NOclickIE;window.onmousedown=NOclickIE;window.onmouseup=NOclickIE;}
 else{function NOclickNN(e){if(document.layers||document.getElementById&&!document.all){if(e.which==2||e.which==3){return false;}}}if(document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=NOclickNN;}document.oncontextmenu=new Function("return false")}</script>
 </head>
@@ -53,12 +52,12 @@ else{function NOclickNN(e){if(document.layers||document.getElementById&&!documen
 	<h1>Jobs Search</h1>
 	
 	<script type="text/javascript">function jobdetails(val){$("#"+val).slideToggle();}
-function applyjob(val){$(this).scrollTop(0);$('#popup').show();$('#popup_content').show();$.ajax({type:"POST",url:"https://www.mauritiusjobs.mu/jobseeker/apply_for_job",data:"jobid="+val,success:function(msg){document.getElementById("popup_content").innerHTML=msg;}});}
+function applyjob(val){$(this).scrollTop(0);$('#popup').show();$('#popup_content').show();$.ajax({type:"POST",url:"https://www.hh.mu/jobseeker/apply_for_job",data:"jobid="+val,success:function(msg){document.getElementById("popup_content").innerHTML=msg;}});}
 function close_popup(){$('#popup').hide();$('#popup_content').hide();return false;}
-function confirm_application(val){var let=$("#cover_letter").val();$.ajax({type:"POST",url:"https://www.mauritiusjobs.mu/jobseeker/job_application",data:"job="+val+"&letter="+let,success:function(msg){if(msg=="applied"){var txt="<span class='applied'>You already applied for this Job. <a href='jobseeker/application_status?viewjob="+val+"'>View Status</a></span>";document.getElementById("btn_"+val).innerHTML=txt;var applied='<div id="message-green"><table border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td class="green-left">Your Job Application has been successfully sent</td><td class="green-right"><a class="close-green"><img src="images/icon_close_green.gif"/></a></td></tr></table></div>';document.getElementById("apply_job").innerHTML=applied;$('#popup').hide();$('#popup_content').hide();}else{window.location.href="jobsearch7a18.html?job=error";}}});}
+function confirm_application(val){var let=$("#cover_letter").val();$.ajax({type:"POST",url:"https://www.s.mu/jobseeker/job_application",data:"job="+val+"&letter="+let,success:function(msg){if(msg=="applied"){var txt="<span class='applied'>You already applied for this Job. <a href='jobseeker/application_status?viewjob="+val+"'>View Status</a></span>";document.getElementById("btn_"+val).innerHTML=txt;var applied='<div id="message-green"><table border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td class="green-left">Your Job Application has been successfully sent</td><td class="green-right"><a class="close-green"><img src="images/icon_close_green.gif"/></a></td></tr></table></div>';document.getElementById("apply_job").innerHTML=applied;$('#popup').hide();$('#popup_content').hide();}else{window.location.href="jobsearch7a18.html?job=error";}}});}
 function reset_form(){document.getElementById("local").checked=false;document.getElementById("international").checked=false;document.getElementById("district").value="";document.getElementById("jobtitle").value="";document.getElementById("qualification").value="";document.getElementById("keyword").value="";document.getElementById("sector").value="";}</script>
 	
-	<form action="https://www.mauritiusjobs.mu/jobsearch" name="search_job" id="search_job" method="post" accept-charset="utf-8">	<div>
+	<form action="https://www.s.mu/jobsearch" name="search_job" id="search_job" method="post" accept-charset="utf-8">	<div>
 		<table id="jobsearch">
 		<tr><td colspan="4">
 			<div id="apply_job">
@@ -1155,7 +1154,7 @@ function reset_form(){document.getElementById("local").checked=false;document.ge
 		</div>
 	</div>
 	<div id="copyright">
-		&copy; Copyright Mauritius Jobs. 2019. All rights reserved.
+		&copy; Copyright s. 2019. All rights reserved.
 	</div>
 	<span id="developed_by_reefcube">Designed & Developed by <a href="http://www.reefcube.mu/" target="_blank">Reefcube Ltd</a></span>
 	<span id="ssl"><img src="images/ssl.png" width="20"> <span class='ssl_txt'>SSL Certified</span></span>
@@ -1168,6 +1167,4 @@ function reset_form(){document.getElementById("local").checked=false;document.ge
 </div>
 
 </body>
-
-<!-- Mirrored from www.mauritiusjobs.mu/jobsearch?job=error by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jan 2019 14:18:57 GMT -->
 </html>

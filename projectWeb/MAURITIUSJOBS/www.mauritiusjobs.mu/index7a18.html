@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
 <html lang="en">
 
-<!-- Mirrored from www.mauritiusjobs.mu/?job=error by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jan 2019 14:06:07 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Mauritius Jobs</title>
-<meta name="description" content="Mauritiusjobs is the no1 job portal in Mauritius where jobseekers can search for vacancies/jobs in Mauritius or abroad posted by registered employers.">
+<meta name="description" content="registered employers.">
 <link rel="icon" href="images/mauritius.ico" type="image/gif" sizes="16x16">
 <link media="all" rel="stylesheet" type="text/css" href="css/reset.css"/>
 <link media="all" rel="stylesheet" type="text/css" href="css/pageb647.css?1548684271"/>
@@ -14,7 +13,7 @@
 <script src="../code.jquery.com/jquery-1.9.1.js"></script>
 <script src="../code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create','UA-50481647-1','mauritiusjobs.mu');ga('send','pageview');</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create','UA-50481647-1','obs.mu');ga('send','pageview');</script>
 <script language="JavaScript" type="text/javascript">if(navigator.appName=='Microsoft Internet Explorer'){function NOclickIE(e){if(event.button==2||event.button==3){return false;}return true;}document.onmousedown=NOclickIE;document.onmouseup=NOclickIE;window.onmousedown=NOclickIE;window.onmouseup=NOclickIE;}
 else{function NOclickNN(e){if(document.layers||document.getElementById&&!document.all){if(e.which==2||e.which==3){return false;}}}if(document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=NOclickNN;}document.oncontextmenu=new Function("return false")}</script>
 </head>
@@ -54,9 +53,9 @@ else{function NOclickNN(e){if(document.layers||document.getElementById&&!documen
 	<script>$(document).ready(function(){$(this).scrollTop(0);$(".bxslider").find("img").load(function(){$(".bxslider").find("li").find("img").show();});});$(function(){$('#login').click(function(){$('#sidebar-login-box').show();$('#register-form').hide();});});$(function(){$('#register').click(function(){$('#register-form').show();$('#sidebar-login-box').hide();});});function jobdetails(val){$("#"+val).slideToggle();}
 $(function(){$('.show_vote_form').click(function(){$('#site_poll').show();$('.vote_result').hide();});});$(function(){$('.show_vote_result').click(function(){$('.vote_result').show();$('#site_poll').hide();});});function vote_now(){var answer=$('input[name=vote_result]:checked').val();$.ajax({type:"POST",url:"vote_now",data:"answer="+answer,success:function(msg){document.getElementById("vote_status").innerHTML=msg;}});return false;}</script>
 	<script>$(function(){var page=1;var pages=$("#pages").val();$(".load_more").click(function(){$('#loading_spinner').show();setTimeout(function(){$("#loading_spinner").hide();},750);var next=page+=1;$.get("?page="+next,function(data){if(next==pages){$(".load_more").remove();}
-var res=data.replace("<head/>","");$(".latest-job").append(res);});});$('.latest-job tr').hover(function(){},function(){});});function applyjob(val){$(this).scrollTop(0);$('#popup').show();$('#popup_content').show();$.ajax({type:"POST",url:"https://www.mauritiusjobs.mu/jobseeker/apply_for_job",data:"jobid="+val,success:function(msg){document.getElementById("popup_content").innerHTML=msg;}});}
+var res=data.replace("<head/>","");$(".latest-job").append(res);});});$('.latest-job tr').hover(function(){},function(){});});function applyjob(val){$(this).scrollTop(0);$('#popup').show();$('#popup_content').show();$.ajax({type:"POST",url:"https://www.s.mu/jobseeker/apply_for_job",data:"jobid="+val,success:function(msg){document.getElementById("popup_content").innerHTML=msg;}});}
 function close_popup(){$('#popup').hide();$('#popup_content').hide();return false;}
-function confirm_application(val){var let=$("#cover_letter").val();$.ajax({type:"POST",url:"https://www.mauritiusjobs.mu/jobseeker/job_application",data:"job="+val+"&letter="+let,success:function(msg){if(msg=="applied"){window.location.href="index8b86.html?job=applied";}
+function confirm_application(val){var let=$("#cover_letter").val();$.ajax({type:"POST",url:"https://www.s.mu/jobseeker/job_application",data:"job="+val+"&letter="+let,success:function(msg){if(msg=="applied"){window.location.href="index8b86.html?job=applied";}
 else
 {window.location.href="index7a18.html?job=error";}}});}</script>
 </header>
@@ -84,7 +83,7 @@ else
 </div>
 
 <div id="main-search">
-	<form action="https://www.mauritiusjobs.mu/jobsearch" name="search_job" method="post" accept-charset="utf-8">		<table>
+	<form action="https://www.s.mu/jobsearch" name="search_job" method="post" accept-charset="utf-8">		<table>
 		<tr>
 		<td><h1>SEARCH FOR A <span class="green">JOB</span></h1></td>
 		<td></td>
@@ -969,8 +968,8 @@ Works well without supervision</p></td>
 
 		<div class="sidebar-box-bottom">
 			<div class="sidebar-box-inner login-box">
-			<!-- <img src="https://www.mauritiusjobs.mu/images/iom_login.png" class="sideimage"> -->
-			<form action="https://www.mauritiusjobs.mu/authenticate" name="login_page" method="post" accept-charset="utf-8">			<div class="sidebar-login-text">
+			<!-- <img src="https://www.bs.mu/images/iom_login.png" class="sideimage"> -->
+			<form action="https://www.bs.mu/authenticate" name="login_page" method="post" accept-charset="utf-8">			<div class="sidebar-login-text">
 				<img src="images/right_arrow.png" width="12" class="no-boder">
 				<a href="javascript:void(0);" id="login" title="Sign In">Login</a>
 			</div>
@@ -1021,7 +1020,7 @@ Works well without supervision</p></td>
 		</div>
 		<div class="sidebar-box-bottom">
 			<div class="sidebar-box-inner featured-box">
-				<!-- <img src="https://www.mauritiusjobs.mu/images/iom_featured.png" class="sideimage"> -->
+				<!-- <img src="https://www.s.mu/images/iom_featured.png" class="sideimage"> -->
 								<div class="featured_list">
 					<span class="news_title">Electrician</span>
 					<span class="read_featured"><a href="view_job/VFZSVmVFNVVaejA9.html" title="VIEW JOB DETAILS">VIEW JOB</a></span>
@@ -1065,7 +1064,7 @@ Works well without supervision</p></td>
 		</div>
 		<div class="sidebar-box-bottom">
 			<div class="sidebar-box-inner news-box">
-				<!-- <img src="https://www.mauritiusjobs.mu/images/iom_news.png" class="sideimage"> -->
+				<!-- <img src="https://www.s.mu/images/iom_news.png" class="sideimage"> -->
 								<div class="news_list">
 					<span class="news_title">Magazine de L'Emploi et des Metiers - Emission 324</span>
 					<span class="read_news"><a href="read_news/VG1wcmVRPT0%3d.html" title="READ NEWS">READ NEWS</a></span>
@@ -1109,7 +1108,7 @@ Works well without supervision</p></td>
 		</div>
 		<div class="sidebar-box-bottom">
 			<div class="sidebar-box-inner poll-box">
-			<!-- <img src="https://www.mauritiusjobs.mu/images/iom_poll.png" class="sideimage"> -->
+			<!-- <img src="https://www.s.mu/images/iom_poll.png" class="sideimage"> -->
 				<div id="site_poll"><table class='poll'><tr><th colspan='2'>How do you rate the TV programme "Magazine de l'emploi et des metiers"</th></tr><tr><td width='50'><input type='radio' name='vote_result' value='92'></td><td align='left'>Poor</td></tr><tr><td width='50'><input type='radio' name='vote_result' value='95'></td><td align='left'>Fair</td></tr><tr><td width='50'><input type='radio' name='vote_result' value='94'></td><td align='left'>Good</td></tr><tr><td width='50'><input type='radio' name='vote_result' value='93'></td><td align='left'>Excellent</td></tr><tr><td colspan='2' class='no-border'><div id='vote_status'><input type='button' value='Vote' class='vote_now vote-btn' onclick='vote_now();' title='Vote Now'></div></td></tr><tr><td colspan='2' class='no-border'><a class='show_vote_result' title='View Result'>View Result</a></td></tr></table></div><div class='vote_result'><table class='poll'><tr><td colspan='2' class='no-border'>Result for :</td></tr><tr><th colspan='2' class='no-border'>How do you rate the TV programme "Magazine de l'emploi et des metiers"</th></tr><tr><td align='left'>Poor (1011 votes)</td><td>40.64 %<div class='show_percentage' style='width:40.64%;'>&nbsp;</div></td></tr><tr><td align='left'>Fair (424 votes)</td><td>17.04 %<div class='show_percentage' style='width:17.04%;'>&nbsp;</div></td></tr><tr><td align='left'>Good (581 votes)</td><td>23.35 %<div class='show_percentage' style='width:23.35%;'>&nbsp;</div></td></tr><tr><td align='left'>Excellent (472 votes)</td><td>18.97 %<div class='show_percentage' style='width:18.97%;'>&nbsp;</div></td></tr><tr><td colspan='2' class='no-border'><input type='button' value='Back to vote' class='show_vote_form vote-btn'></td></tr></table></div>			</div>
 			<div class="clear"></div>
 		</div>
@@ -1147,7 +1146,7 @@ Works well without supervision</p></td>
 		</div>
 	</div>
 	<div id="copyright">
-		&copy; Copyright Mauritius Jobs. 2019. All rights reserved.
+		&copy; Copyright . 2019. All rights reserved.
 	</div>
 	<span id="developed_by_reefcube">Designed & Developed by <a href="http://www.reefcube.mu/" target="_blank">Reefcube Ltd</a></span>
 	<span id="ssl"><img src="images/ssl.png" width="20"> <span class='ssl_txt'>SSL Certified</span></span>
@@ -1161,5 +1160,4 @@ Works well without supervision</p></td>
 
 </body>
 
-<!-- Mirrored from www.mauritiusjobs.mu/?job=error by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jan 2019 14:06:07 GMT -->
 </html>
